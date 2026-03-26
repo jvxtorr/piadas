@@ -27,6 +27,6 @@ As piadas sao buscadas da API:
 - Exibe piadas do tipo `single` e `twopart`
 - Traduz a piada para pt-BR
 
-## Observacao
+## Observação
 
 A tela foi pensada para funcionar dentro do projeto atual, mas de forma isolada, usando apenas HTML, CSS e JavaScript.
