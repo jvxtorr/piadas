@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Piadas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <h1 class="title">Gerador de Piadas</h1>
+      <p class="subtitle">Clique no botão para gerar uma nova piada</p>
+
+      <div class="joke-area">
+        <div class="loading" id="loading" style="display: none;">
+          <div class="spinner"></div>
+          <p>Carregando piada...</p>
+        </div>
+
+        <div class="joke-display" id="jokeDisplay" style="display: none;">
+          <div class="joke-content" id="jokeContent"></div>
+          <div class="joke-category" id="jokeCategory"></div>
+        </div>
+
+        <div class="error-message" id="errorMessage" style="display: none;"></div>
+
+        <div class="initial-state" id="initialState">
+          <p>Pressione o botão abaixo para receber uma piada</p>
+        </div>
+      </div>
+
+      <button class="btn-get-joke" id="btnGetJoke">Buscar Piada</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
